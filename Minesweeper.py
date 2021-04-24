@@ -148,3 +148,8 @@ while ((flag == 0) and (counter < 3)):
     if (num == number):
         flag = 1
     counter += 1
+
+if (counter == 3):
+    print("You lost")
+else:
+    print("You won")
