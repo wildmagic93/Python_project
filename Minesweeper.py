@@ -178,8 +178,12 @@ while ((flag == 0) and (counter < number_tries)):
     
     if (mask[x_coordinate][y_coordinate] != "mine"):
         num += 1
+    else:
+        counter = number_tries
+        
     if (num == number):
         flag = 1
+    
     counter += 1
 
 if (counter == number_tries):
