@@ -159,7 +159,7 @@ number = count_grid(grid)
 num = 0
 mask = initialize_mask(mask)
 mask = fill_mask(mask)
-number_tries = 50
+number_tries = 60
 while ((flag == 0) and (counter < number_tries)):
     for row in mask:
         print("- - - - - - - -")
